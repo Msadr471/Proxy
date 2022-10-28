@@ -4,5 +4,5 @@ function FindProxyForURL(url, host) {
     else if (shExpMatch(host, "*.ir"))
         return "DIRECT";
     else
-        return "SOCKS5 100.84.207.134:40161";
+        return "SOCKS 100.84.207.134:40161";
 }
